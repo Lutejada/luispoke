@@ -3,7 +3,7 @@ import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 
 import { Pokemon } from 'src/pokemon/entities/pokemon.entity';
-import { PokeResponse } from './interfaces/poke-reponse.interface';
+import { PokeResponse } from './interfaces/poke-response.interface';
 import { AxiosAdapter } from 'src/common/adapters/axios.adapter';
 
 
@@ -45,5 +45,3 @@ export class SeedService {
   }
 
 }
-
-
